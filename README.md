@@ -45,7 +45,7 @@ This project provides an end-to-end analytical study of Olist's operational data
 
 ### 1. Financial Performance Dashboard
 
-<img src="./Overview Dashboard.png" alt="Overview Dashboard" width="100%">
+![Overview Dashboard](Overview%20Dashboard.png)
 
 Focuses on fiscal evaluation and comparing actual collected revenue against expected earnings.
 * **Key KPI Metrics:**
@@ -60,7 +60,7 @@ Focuses on fiscal evaluation and comparing actual collected revenue against expe
 
 ### 2. Order Breakdown Dashboard
 
-<img src="./Order Breakdown Dashboard.png" alt="Order Breakdown Dashboard" width="100%">
+![Order Breakdown Dashboard](Order%20Breakdown%20Dashboard.png)
 
 Analyzes order fulfillments, payment collection health, and installment plan breakdown.
 * **Key KPI Metrics:**
@@ -75,7 +75,7 @@ Analyzes order fulfillments, payment collection health, and installment plan bre
 
 ### 3. Delivery & Logistics Dashboard
 
-<img src="./Delivery Dashboard.png" alt="Delivery Dashboard" width="100%">
+![Delivery Dashboard](Delivery%20Dashboard.png)
 
 Dedicated to monitoring supply chain efficiency, shipping status, and delay impacts.
 * **Key KPI Metrics:**
