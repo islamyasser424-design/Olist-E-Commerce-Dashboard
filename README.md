@@ -99,7 +99,7 @@ Dedicated to monitoring supply chain efficiency, shipping status, and delay impa
 
 ## 🛠️ Tech Stack & Tools
 
-* **Microsoft Excel / Power BI:** Data transformation, modeling, and interactive dashboard UI design.
+* **Microsoft Excel :** Data transformation, modeling, and interactive dashboard UI design.
 * **Slicers & Dynamic Filtering:** Time-period slicing (Months timeline) and side-navigation filtering by Payment Method & Order Status.
 * **Data Modeling:** Integrated relational model across financial, order, and shipping tables.
 
