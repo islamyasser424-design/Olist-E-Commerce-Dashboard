@@ -8,11 +8,24 @@ A comprehensive interactive dashboard for analyzing financial performance, order
 - [Project Overview](#-project-overview)
 - [Key Performance Indicators (KPIs)](#-key-performance-indicators-kpis)
 - [Dashboards Breakdown](#-dashboards-breakdown)
-  - [1. Financial Performance Dashboard](#1-financial-performance-dashboard)
-  - [2. Order Breakdown Dashboard](#2-order-breakdown-dashboard)
-  - [3. Delivery & Logistics Dashboard](#3-delivery--logistics-dashboard)
+  - [1. Financial Performance Dashboard](#1-financial-performance-dashboard)
+  - [2. Order Breakdown Dashboard](#2-order-breakdown-dashboard)
+  - [3. Delivery & Logistics Dashboard](#3-delivery--logistics-dashboard)
 - [Key Insights & Recommendations](#-key-insights--recommendations)
 - [Tech Stack & Tools](#-tech-stack--tools)
+
+## 📊 Presentation & Extended Analytics
+
+For a complete executive presentation and deep-dive analysis, refer to the included PowerPoint file:
+
+* **File Name:** `olist_presentation.pptx`
+* **Contents:**
+  * Executive Overview & Financial Performance Deck
+  * Detailed Monthly Breakdown Tables (Revenues, Profits, & Deliveries)
+  * Payment Methods & Installment Behavior Insights
+  * Logistics Bottlenecks & Operational SLA Recommendations
+2. **Promote Preferred Payment Gateways:** Credit cards account for over 79% of net profits. Incentivize direct digital payment channels to minimize reconciliation variances.
+3. **Minimize Underpayments & Payment Anomalies:** Over `11,000` orders recorded underpayment status; implementing automated payment verification triggers at checkout will reduce revenue leakage.
 
 ---
 
@@ -49,12 +62,12 @@ This project provides an end-to-end analytical study of Olist's operational data
 
 Focuses on fiscal evaluation and comparing actual collected revenue against expected earnings.
 * **Key KPI Metrics:**
-  * **Expected Revenue:** $15,735,527 vs. **Total Payments:** $15,271,774.
-  * **% Revenue Collected:** 97.99%.
+  * **Expected Revenue:** $15,735,527 vs. **Total Payments:** $15,271,774.
+  * **% Revenue Collected:** 97.99%.
 * **Visualizations:**
-  * **Total Revenue by Month:** Line chart displaying monthly sales trends (peaking in May at $1,695,626).
-  * **Revenue vs. Expected Revenue by Month:** Column chart comparing projected vs. actual revenue.
-  * **Net Profit by Payment Type:** Distribution of net profit across payment methods (`Credit Card` leads with $8.77M, followed by `Boleto` at $1.88M).
+  * **Total Revenue by Month:** Line chart displaying monthly sales trends (peaking in May at $1,695,626).
+  * **Revenue vs. Expected Revenue by Month:** Column chart comparing projected vs. actual revenue.
+  * **Net Profit by Payment Type:** Distribution of net profit across payment methods (`Credit Card` leads with $8.77M, followed by `Boleto` at $1.88M).
 
 ---
 
@@ -64,12 +77,12 @@ Focuses on fiscal evaluation and comparing actual collected revenue against expe
 
 Analyzes order fulfillments, payment collection health, and installment plan breakdown.
 * **Key KPI Metrics:**
-  * **Canceled Orders:** 625 orders (valued at $105,886).
-  * **Orders % by Status:** 97.02% Delivered, 1.74% Pending, and 1.24% Canceled.
+  * **Canceled Orders:** 625 orders (valued at $105,886).
+  * **Orders % by Status:** 97.02% Delivered, 1.74% Pending, and 1.24% Canceled.
 * **Visualizations:**
-  * **Total Delivered Orders by Month:** Monthly trend of completed fulfillments (highest volume in August with 10,544 orders).
-  * **Orders Per Payment Status:** Payment health breakdown (Correct Payment: 75,901 | Underpaid: 11,277 | Overpaid: 9,299).
-  * **Installments Breakdown:** Distribution of installment payments (1 Installment dominates with 47,899 orders, followed by 2–5 installments with 35,409).
+  * **Total Delivered Orders by Month:** Monthly trend of completed fulfillments (highest volume in August with 10,544 orders).
+  * **Orders Per Payment Status:** Payment health breakdown (Correct Payment: 75,901 | Underpaid: 11,277 | Overpaid: 9,299).
+  * **Installments Breakdown:** Distribution of installment payments (1 Installment dominates with 47,899 orders, followed by 2–5 installments with 35,409).
 
 ---
 
@@ -79,11 +92,11 @@ Analyzes order fulfillments, payment collection health, and installment plan bre
 
 Dedicated to monitoring supply chain efficiency, shipping status, and delay impacts.
 * **Key KPI Metrics:**
-  * **Delivery Status Breakdown:** 88,652 On-time (Not late), 7,826 Late, and 2,963 Not Delivered.
+  * **Delivery Status Breakdown:** 88,652 On-time (Not late), 7,826 Late, and 2,963 Not Delivered.
 * **Visualizations:**
-  * **Late Delivery Orders by Month:** Monthly delay trends (March suffered the highest delay count with 1,638 late orders).
-  * **Avg Delay Time by Month:** Monthly average delay in days (ranged between 4 to 12 days).
-  * **Late Deliveries Revenue by Month:** Financial revenue exposed to shipping delay risks per month (March peaked at $272,894).
+  * **Late Delivery Orders by Month:** Monthly delay trends (March suffered the highest delay count with 1,638 late orders).
+  * **Avg Delay Time by Month:** Monthly average delay in days (ranged between 4 to 12 days).
+  * **Late Deliveries Revenue by Month:** Financial revenue exposed to shipping delay risks per month (March peaked at $272,894).
 
 ---
 
@@ -92,8 +105,8 @@ Dedicated to monitoring supply chain efficiency, shipping status, and delay impa
 1. **Payment Methods:** Customers heavily rely on **Credit Card** and **Boleto**. Promoting incentives for digital payment types (such as Debit Cards or Vouchers) could streamline cash flow.
 2. **Installment Plans:** Over 50% of purchases involve installments (predominantly 2–5 installments). Expanding Buy-Now-Pay-Later (BNPL) options will likely drive conversion rates further.
 3. **Logistics Bottlenecks:**
-   * **March** was the worst performing month in terms of shipping delays and associated risk revenue.
-   * The average delay time stands at **10 days**, which negatively impacts customer satisfaction. Renegotiating SLA agreements with regional courier partners is highly recommended.
+   * **March** was the worst performing month in terms of shipping delays and associated risk revenue.
+   * The average delay time stands at **10 days**, which negatively impacts customer satisfaction. Renegotiating SLA agreements with regional courier partners is highly recommended.
 
 ---
 
@@ -258,5 +271,4 @@ The Excel file/data model is structured into sheets connecting dashboards with r
 ## 💡 Strategic Key Recommendations
 
 1. **Optimize Supply Chain & Bottlenecks:** Address logistics issues in March and February, which accounted for the highest number of late deliveries and revenue at risk.
-2. **Promote Preferred Payment Gateways:** Credit cards account for over 79% of net profits. Incentivize direct digital payment channels to minimize reconciliation variances.
-3. **Minimize Underpayments & Payment Anomalies:** Over `11,000` orders recorded underpayment status; implementing automated payment verification triggers at checkout will reduce revenue leakage.
+---
